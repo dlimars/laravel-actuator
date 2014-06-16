@@ -1,0 +1,20 @@
+{
+    "name": "dlima/laravel-actuator",
+    "description": "Cria rotas para metricas e status do framework",
+    "authors": [
+        {
+            "name": "Daniel Lima",
+            "email": "daniel@docode.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dlima\\LaravelActuator": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
